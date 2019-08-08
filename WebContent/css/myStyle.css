@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css?family=Prompt&display=swap');
+
+body{
+	font-family: 'Prompt';
+}
+.heading{
+	text-align: center;
+	font-size: 25px;
+}
+.align-center{
+	margin: auto;
+  width: 40%;
+  border: 3px solid #d3394c;
+  padding: 10px;
+}
+.heading-text{
+text-align: center;
+color: #d3394c;
+}
+input[type="text"],input[type="tel"]{
+	border: 2px solid #d3394c;
+  	padding: 5px; 
+  	width: 95%;
+}
+input[type="submit"]{
+	
+	font-family: 'Prompt';
+	font-size: 20px;
+	padding: 5px; 
+  	width: 100%;
+	background-color: #d3394c;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+}
+.select-box{
+	font-family: 'Prompt';
+	text-align: center;
+	padding: 5px; 
+  	width: 100%;
+	background-color: #d3394c;
+	border: none;
+	color: #fff;
+}
